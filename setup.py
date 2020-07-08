@@ -32,8 +32,8 @@ def get_data_files():
 def get_install_requires():
     requires = ['fire==0.3.1', 'shortuuid', 'pymysql==0.9.3', 'sqlalchemy==1.3.0', 'python3-pika==0.9.14', 'PyJWT',
                 'Crypto==1.4.1', 'requests', 'redis==2.10.6', 'tornado>=5.0',
-                'aliyun-python-sdk-core-v3==2.8.6', 'aliyun-python-sdk-dysmsapi', 'python-dateutil==2.7.5',
-                'ldap3==2.6', 'pydantic==1.4', 'pycryptodome', 'rsa==4.0']
+                'aliyun-python-sdk-core-v3==2.13.11', 'aliyun-python-sdk-dysmsapi', 'python-dateutil==2.7.5',
+                'ldap3==2.6', 'pydantic==1.5.1', 'pycryptodome', 'rsa==4.6']
     # if sys.platform.startswith('win'):
     #    requires.append('bottle')
     return requires
